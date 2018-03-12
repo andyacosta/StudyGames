@@ -15,6 +15,7 @@
 		A53A394B204F0F9E0089738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A53A3949204F0F9E0089738C /* LaunchScreen.storyboard */; };
 		A53A3956204F0F9F0089738C /* StudyGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A3955204F0F9F0089738C /* StudyGamesTests.swift */; };
 		A53A3961204F0F9F0089738C /* StudyGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53A3960204F0F9F0089738C /* StudyGamesUITests.swift */; };
+		A59B2FD42056E7130020537C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59B2FD32056E7130020537C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A53A395C204F0F9F0089738C /* StudyGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53A3960204F0F9F0089738C /* StudyGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyGamesUITests.swift; sourceTree = "<group>"; };
 		A53A3962204F0F9F0089738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A59B2FD32056E7130020537C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A53A393E204F0F9E0089738C /* AppDelegate.swift */,
 				A53A3940204F0F9E0089738C /* FirstViewController.swift */,
 				A53A3942204F0F9E0089738C /* SecondViewController.swift */,
+				A59B2FD32056E7130020537C /* ThirdViewController.swift */,
 				A53A3944204F0F9E0089738C /* Main.storyboard */,
 				A53A3947204F0F9E0089738C /* Assets.xcassets */,
 				A53A3949204F0F9E0089738C /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				A53A3943204F0F9E0089738C /* SecondViewController.swift in Sources */,
 				A53A393F204F0F9E0089738C /* AppDelegate.swift in Sources */,
+				A59B2FD42056E7130020537C /* ThirdViewController.swift in Sources */,
 				A53A3941204F0F9E0089738C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +526,7 @@
 				A53A3967204F0F9F0089738C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53A3968204F0F9F0089738C /* Build configuration list for PBXNativeTarget "StudyGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				A53A396A204F0F9F0089738C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A53A396B204F0F9F0089738C /* Build configuration list for PBXNativeTarget "StudyGamesUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				A53A396D204F0F9F0089738C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
